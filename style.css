@@ -1,0 +1,42 @@
+/* Estilo da página */
+body {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: center; /* Alinha horizontalmente no centro */
+    height: 100vh; /* Altura total da janela */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 1s ease; /* Transição suave para a cor de fundo */
+    background-color: #f0f0f0; /* Fundo inicial */
+}
+
+/* Contêiner central */
+.container {
+    text-align: center; /* Centraliza os elementos dentro do contêiner */
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Alinha os itens ao centro */
+    gap: 20px; /* Espaço entre a lâmpada e o botão */
+}
+
+/* Estilo da imagem */
+img {
+    width: 80px; /* Reduz a largura da lâmpada */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #624ee4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4130e2;
+}
